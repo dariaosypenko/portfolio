@@ -94,3 +94,14 @@ color: var(--black);
 .link:focus {
     color: var(--accent-cl);
 }
+
+.section-label::before,
+.social::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    background-color: currentColor;
+    margin-right: 20px;
+}
+

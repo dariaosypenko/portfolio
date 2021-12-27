@@ -1,0 +1,37 @@
+.message, .text-box {
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+background-color: var(--dark-bg);
+border-width: 0 0 1px 0;
+border-color: var(--grey);
+}
+
+.message {
+width: 270px;
+height: 24px;
+}
+
+.text-box {
+resize: none;
+margin-top: 44px;
+
+}
+
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
