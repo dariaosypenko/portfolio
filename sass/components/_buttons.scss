@@ -1,15 +1,30 @@
 .btn {
-display: inline-block;
-border: 1px solid var(--accent-cl);
-border-radius: 25px;
-padding: 12px 20px;
-font-family: inherit;
-font-weight: 600;
-font-size: 12px;
-line-height: 1.33;
-letter-spacing: 0.09em;
-text-transform: uppercase;
-color: var(--black);
-background-color: transparent;
+  display: inline-block;
+  border: 1px solid var(--accent-cl);
+  border-radius: 25px;
+  padding: 12px 20px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background-color: transparent;
+}
 
+.btn-light {
+  color: var(--black);
+}
+
+.btn-dark {
+  color: var(--white);
+}
+
+.btn-center {
+  text-align: center;
+}
+
+.btn-form {
+  align-self: flex-start;
+  margin-top: 44px;
 }

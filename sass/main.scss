@@ -5,6 +5,8 @@
 @import "./components/menu";
 @import "./components/social";
 @import "./components/social-icons";
+@import "./components/benefits-grid";
+@import "./components/form";
 
 
 
@@ -34,15 +36,7 @@ text-transform: uppercase;
 color: var(--black);
 }
 
-.section-label::before,
-.social::before {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 1px;
-    background-color: currentColor;
-    margin-right: 20px;
-}
+
 
 
 
@@ -153,14 +147,6 @@ color: var(--black);
     border-bottom: 1px solid rgba(157, 164, 189, 0.12);
 }
 
-.benefits-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    margin: auto;
-    width: calc(((100% - 30px * 5) / 6 * 4) + 30px * 3);
-}
 
 .grid {
     display: flex;
@@ -242,45 +228,7 @@ color: var(--grey);
 .dark-bg .section-label {
     color: rgba(157, 164, 189, 0.6);
 }
-.dark-bg .btn {
-    color: var(--white);
-
-}
 
 
 
 
-/* .benefits-item {
-    width: calc((100% - 30px * 1) / 2);
-    padding: 20px;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.36;
-    text-align: center;
-    color: var(--black);
-    background-color: var(--light-grey);
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
-
-
-.benefits-item:nth-child(2n) {
-    margin-right: 0;
-}
-
-.benefits-counter {
-    font-weight: 700;
-    font-size: 42px;
-    letter-spacing: 0.05em;
-}
-
-
-.benefits-counter sup {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.375;
-    color: var(--accent-cl);
-
-} */
-
-/* after grid */
